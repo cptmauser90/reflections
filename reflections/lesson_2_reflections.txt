@@ -1,0 +1,3 @@
+If I initialize a repository, I tell git that files which are stored in this folder (new folder) or the files that are already in an existing folder, shall be part of my git repository and can be commited.
+
+The staging area is some kind of cache where I can add files which I want to commit to. These files are cached in its current version and can't be modified, whereas the files in the working directory can be modified. The files in the repository related to commits are the actual versions.
