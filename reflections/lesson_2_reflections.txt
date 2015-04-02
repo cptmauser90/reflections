@@ -5,3 +5,5 @@ The staging area is some kind of cache where I can add files which I want to com
 I can compare the files in the staging area to both the files in the working directory as well as to the files of my recent commit. This gives me the possibility to double check my changes.
 
 Branches are useful if I'm working on a part of my file about which I'm not sure if I want to use it right now. Maybe because I'm just experimenting with a new feature. Branches can also help me to create different "versions" (not the git manner) of the file, e.g. for different people, different languages, etc.
+
+The diagrams (tree diagrams) show the whole branch structure with the single commits. This lets me keep an overview on the whole repository.
