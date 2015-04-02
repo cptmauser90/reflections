@@ -1,0 +1,13 @@
+Diff is a cool function which helps me to compare two files (e.g. code) in a simple and straight forward manner. Lines which are not marked, are present in both files. Lines marked with a minus sign appeared in the old but not in the new version. Consequently, lines marked with a plus sign have been added in the new version and did not appear in the old version.
+
+Having access to previous versions of my code gives me the possibility to try something out in my program without taking the risk of losing functional code, which helps to improve my coding efficiency.
+
+The problem with manual saving is that one can forget. The adavantage is that one avoids too many (unnecessary) versions. Using software which saves a version automatically, such as Dropbox or Google Docs, produces a lot of data.
+
+Saving multiple files in one commit makes sense for larger projects with many single coding files.
+
+Git log and git commit commands can be used to get an overview of all commits with their IDs and messages in the first step. With the git diff command, I can easily compare two different commits using their ID to identify them. Added lines are marked green, removed lines are marked red.
+
+With using a version control system, I can make changes in my code which might destroy some parts of my code without the risk of breaking everything ireversible, thanks to the different commits.
+
+I want to try to use git for code and more importantly for latex files!
