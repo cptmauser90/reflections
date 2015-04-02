@@ -3,3 +3,5 @@ If I initialize a repository, I tell git that files which are stored in this fol
 The staging area is some kind of cache where I can add files which I want to commit to. These files are cached in its current version and can't be modified, whereas the files in the working directory can be modified. The files in the repository related to commits are the actual versions.
 
 I can compare the files in the staging area to both the files in the working directory as well as to the files of my recent commit. This gives me the possibility to double check my changes.
+
+Branches are useful if I'm working on a part of my file about which I'm not sure if I want to use it right now. Maybe because I'm just experimenting with a new feature. Branches can also help me to create different "versions" (not the git manner) of the file, e.g. for different people, different languages, etc.
