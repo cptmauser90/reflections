@@ -7,3 +7,7 @@ I can compare the files in the staging area to both the files in the working dir
 Branches are useful if I'm working on a part of my file about which I'm not sure if I want to use it right now. Maybe because I'm just experimenting with a new feature. Branches can also help me to create different "versions" (not the git manner) of the file, e.g. for different people, different languages, etc.
 
 The diagrams (tree diagrams) show the whole branch structure with the single commits. This lets me keep an overview on the whole repository.
+
+The result of merging two branches together is that the changes (e.g. lines of code) of my "experimental" branch are added to the branch with which I merge. What will be the final result depends on some things, e.g. if one user has deleted a whole bunch of lines, they probably won't appear in the new branch.
+
+Automatic merging is a very nice feature since it's very convenient to use. But on the other hand, manual merging forces you to take a look at specific changes in the code and therefore let's you put more attention on the actual changes.
