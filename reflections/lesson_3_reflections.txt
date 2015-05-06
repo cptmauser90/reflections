@@ -1,0 +1,1 @@
+Remote repositories can be used when collaborating with others.
